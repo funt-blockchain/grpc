@@ -24,17 +24,17 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/backoff"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	internalbackoff "google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/stats"
+	"github.com/funt-blockchain/grpc/backoff"
+	"github.com/funt-blockchain/grpc/balancer"
+	"github.com/funt-blockchain/grpc/credentials"
+	"github.com/funt-blockchain/grpc/grpclog"
+	"github.com/funt-blockchain/grpc/internal"
+	internalbackoff "github.com/funt-blockchain/grpc/internal/backoff"
+	"github.com/funt-blockchain/grpc/internal/envconfig"
+	"github.com/funt-blockchain/grpc/internal/transport"
+	"github.com/funt-blockchain/grpc/keepalive"
+	"github.com/funt-blockchain/grpc/resolver"
+	"github.com/funt-blockchain/grpc/stats"
 )
 
 // dialOptions configure a Dial call. dialOptions are set by the DialOption

@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/status"
+	"github.com/funt-blockchain/grpc"
+	"github.com/funt-blockchain/grpc/codes"
+	"github.com/funt-blockchain/grpc/connectivity"
+	healthpb "github.com/funt-blockchain/grpc/health/grpc_health_v1"
+	"github.com/funt-blockchain/grpc/internal"
+	"github.com/funt-blockchain/grpc/internal/backoff"
+	"github.com/funt-blockchain/grpc/status"
 )
 
 var (

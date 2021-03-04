@@ -1,4 +1,4 @@
-module google.golang.org/grpc
+module github.com/funt-blockchain/grpc
 
 go 1.11
 

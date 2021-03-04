@@ -24,7 +24,7 @@ import (
 	"context"
 	"net"
 
-	"google.golang.org/grpc/credentials"
+	"github.com/funt-blockchain/grpc/credentials"
 )
 
 // Peer contains the information of the peer for an RPC, such as the address

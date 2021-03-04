@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	pb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	"google.golang.org/grpc/grpclog"
+	pb "github.com/funt-blockchain/grpc/binarylog/grpc_binarylog_v1"
+	"github.com/funt-blockchain/grpc/grpclog"
 )
 
 var (

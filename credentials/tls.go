@@ -30,7 +30,7 @@ import (
 	"io/ioutil"
 	"net"
 
-	"google.golang.org/grpc/credentials/internal"
+	"github.com/funt-blockchain/grpc/credentials/internal"
 )
 
 // TLSInfo contains the auth information for a TLS authenticated connection.

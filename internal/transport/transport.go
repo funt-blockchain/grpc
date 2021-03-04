@@ -31,13 +31,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/funt-blockchain/grpc/codes"
+	"github.com/funt-blockchain/grpc/credentials"
+	"github.com/funt-blockchain/grpc/keepalive"
+	"github.com/funt-blockchain/grpc/metadata"
+	"github.com/funt-blockchain/grpc/stats"
+	"github.com/funt-blockchain/grpc/status"
+	"github.com/funt-blockchain/grpc/tap"
 )
 
 type bufferPool struct {

@@ -27,12 +27,12 @@ import (
 	"net"
 	"strings"
 
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/funt-blockchain/grpc/connectivity"
+	"github.com/funt-blockchain/grpc/credentials"
+	"github.com/funt-blockchain/grpc/internal"
+	"github.com/funt-blockchain/grpc/metadata"
+	"github.com/funt-blockchain/grpc/resolver"
+	"github.com/funt-blockchain/grpc/serviceconfig"
 )
 
 var (

@@ -19,7 +19,7 @@
 package balancerload
 
 import (
-	"google.golang.org/grpc/metadata"
+	"github.com/funt-blockchain/grpc/metadata"
 )
 
 // Parser converts loads from metadata into a concrete type.

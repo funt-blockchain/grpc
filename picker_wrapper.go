@@ -24,12 +24,12 @@ import (
 	"io"
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/status"
+	"github.com/funt-blockchain/grpc/balancer"
+	"github.com/funt-blockchain/grpc/codes"
+	"github.com/funt-blockchain/grpc/grpclog"
+	"github.com/funt-blockchain/grpc/internal/channelz"
+	"github.com/funt-blockchain/grpc/internal/transport"
+	"github.com/funt-blockchain/grpc/status"
 )
 
 // v2PickerWrapper wraps a balancer.Picker while providing the

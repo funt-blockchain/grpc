@@ -19,7 +19,7 @@ your computer. The simplest way to install the library is to run:
 $ go get -u google.golang.org/grpc
 ```
 
-With Go module support (Go 1.11+), simply `import "google.golang.org/grpc"` in
+With Go module support (Go 1.11+), simply `import "github.com/funt-blockchain/grpc"` in
 your source code and `go [build|run|test]` will automatically download the
 necessary dependencies ([Go modules
 ref](https://github.com/golang/go/wiki/Modules)).
@@ -60,7 +60,7 @@ produces an error like the following when this happens:
 
 ```
 $ go get -u google.golang.org/grpc
-package google.golang.org/grpc: unrecognized import path "google.golang.org/grpc" (https fetch: Get https://google.golang.org/grpc?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+package google.golang.org/grpc: unrecognized import path "github.com/funt-blockchain/grpc" (https fetch: Get https://google.golang.org/grpc?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
 ```
 
 To build Go code, there are several options:
