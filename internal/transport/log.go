@@ -21,7 +21,7 @@
 
 package transport
 
-import "github.com/funt-blockchain/grpc/grpclog"
+import "google.golang.org/grpc/grpclog"
 
 const logLevel = 2
 

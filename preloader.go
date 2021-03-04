@@ -19,8 +19,8 @@
 package grpc
 
 import (
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 )
 
 // PreparedMsg is responsible for creating a Marshalled and Compressed object.

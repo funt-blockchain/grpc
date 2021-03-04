@@ -23,11 +23,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/grpclog"
-	"github.com/funt-blockchain/grpc/naming"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/naming"
+	"google.golang.org/grpc/status"
 )
 
 // Address represents a server the client connects to.

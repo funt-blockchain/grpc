@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/internal/channelz"
-	"github.com/funt-blockchain/grpc/internal/grpcsync"
-	"github.com/funt-blockchain/grpc/resolver"
-	"github.com/funt-blockchain/grpc/serviceconfig"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/internal/channelz"
+	"google.golang.org/grpc/internal/grpcsync"
+	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc/serviceconfig"
 )
 
 // ccResolverWrapper is a wrapper on top of cc for resolvers.

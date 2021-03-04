@@ -30,7 +30,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/funt-blockchain/grpc/internal/grpclog"
+	"google.golang.org/grpc/internal/grpclog"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/funt-blockchain/grpc/grpclog"
+	"google.golang.org/grpc/grpclog"
 )
 
 // Logger is the global binary logger. It can be used to get binary logger for

@@ -24,7 +24,7 @@ package grpc
 import (
 	"time"
 
-	"github.com/funt-blockchain/grpc/backoff"
+	"google.golang.org/grpc/backoff"
 )
 
 // DefaultBackoffConfig uses values specified for backoff in

@@ -24,9 +24,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/funt-blockchain/grpc/attributes"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/serviceconfig"
+	"google.golang.org/grpc/attributes"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/serviceconfig"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/funt-blockchain/grpc/grpclog"
+	"google.golang.org/grpc/grpclog"
 )
 
 // NewLoggerFromConfigString reads the string and build a logger. It can be used

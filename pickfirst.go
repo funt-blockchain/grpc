@@ -21,12 +21,12 @@ package grpc
 import (
 	"errors"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/connectivity"
-	"github.com/funt-blockchain/grpc/grpclog"
-	"github.com/funt-blockchain/grpc/resolver"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/connectivity"
+	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc/status"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

@@ -7,9 +7,9 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	grpc "github.com/funt-blockchain/grpc"
-	codes "github.com/funt-blockchain/grpc/codes"
-	status "github.com/funt-blockchain/grpc/status"
+	grpc "google.golang.org/grpc"
+	codes "google.golang.org/grpc/codes"
+	status "google.golang.org/grpc/status"
 	math "math"
 )
 

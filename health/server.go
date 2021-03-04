@@ -26,11 +26,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/grpclog"
-	healthgrpc "github.com/funt-blockchain/grpc/health/grpc_health_v1"
-	healthpb "github.com/funt-blockchain/grpc/health/grpc_health_v1"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/grpclog"
+	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
+	healthpb "google.golang.org/grpc/health/grpc_health_v1"
+	"google.golang.org/grpc/status"
 )
 
 // Server implements `service Health`.

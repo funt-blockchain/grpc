@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/connectivity"
-	"github.com/funt-blockchain/grpc/internal/buffer"
-	"github.com/funt-blockchain/grpc/internal/channelz"
-	"github.com/funt-blockchain/grpc/internal/grpcsync"
-	"github.com/funt-blockchain/grpc/resolver"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/connectivity"
+	"google.golang.org/grpc/internal/buffer"
+	"google.golang.org/grpc/internal/channelz"
+	"google.golang.org/grpc/internal/grpcsync"
+	"google.golang.org/grpc/resolver"
 )
 
 // scStateUpdate contains the subConn and the new state it changed to.

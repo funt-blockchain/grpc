@@ -30,24 +30,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/balancer/base"
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/connectivity"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/internal/backoff"
-	"github.com/funt-blockchain/grpc/internal/channelz"
-	"github.com/funt-blockchain/grpc/internal/grpcsync"
-	"github.com/funt-blockchain/grpc/internal/grpcutil"
-	"github.com/funt-blockchain/grpc/internal/transport"
-	"github.com/funt-blockchain/grpc/keepalive"
-	"github.com/funt-blockchain/grpc/resolver"
-	"github.com/funt-blockchain/grpc/serviceconfig"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/balancer/base"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/connectivity"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/internal/backoff"
+	"google.golang.org/grpc/internal/channelz"
+	"google.golang.org/grpc/internal/grpcsync"
+	"google.golang.org/grpc/internal/grpcutil"
+	"google.golang.org/grpc/internal/transport"
+	"google.golang.org/grpc/keepalive"
+	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc/serviceconfig"
+	"google.golang.org/grpc/status"
 
-	_ "github.com/funt-blockchain/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "github.com/funt-blockchain/grpc/internal/resolver/dns"         // To register dns resolver.
-	_ "github.com/funt-blockchain/grpc/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "google.golang.org/grpc/balancer/roundrobin"           // To register roundrobin.
+	_ "google.golang.org/grpc/internal/resolver/dns"         // To register dns resolver.
+	_ "google.golang.org/grpc/internal/resolver/passthrough" // To register passthrough resolver.
 )
 
 const (

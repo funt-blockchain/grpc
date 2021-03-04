@@ -24,10 +24,10 @@ package roundrobin
 import (
 	"sync"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/balancer/base"
-	"github.com/funt-blockchain/grpc/grpclog"
-	"github.com/funt-blockchain/grpc/internal/grpcrand"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/balancer/base"
+	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/internal/grpcrand"
 )
 
 // Name is the name of round_robin balancer.

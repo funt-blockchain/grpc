@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/funt-blockchain/grpc/grpclog"
+	"google.golang.org/grpc/grpclog"
 )
 
 const (

@@ -23,7 +23,7 @@ package grpcutil
 import (
 	"strings"
 
-	"github.com/funt-blockchain/grpc/resolver"
+	"google.golang.org/grpc/resolver"
 )
 
 // split2 returns the values from strings.SplitN(s, sep, 2).

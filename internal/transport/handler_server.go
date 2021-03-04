@@ -37,12 +37,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/http2"
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/metadata"
-	"github.com/funt-blockchain/grpc/peer"
-	"github.com/funt-blockchain/grpc/stats"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/metadata"
+	"google.golang.org/grpc/peer"
+	"google.golang.org/grpc/stats"
+	"google.golang.org/grpc/status"
 )
 
 // NewServerHandlerTransport returns a ServerTransport handling gRPC

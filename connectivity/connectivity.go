@@ -24,7 +24,7 @@ package connectivity
 import (
 	"context"
 
-	"github.com/funt-blockchain/grpc/grpclog"
+	"google.golang.org/grpc/grpclog"
 )
 
 // State indicates the state of connectivity.

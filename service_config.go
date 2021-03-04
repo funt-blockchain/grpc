@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/funt-blockchain/grpc/balancer"
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/grpclog"
-	"github.com/funt-blockchain/grpc/internal"
-	"github.com/funt-blockchain/grpc/serviceconfig"
+	"google.golang.org/grpc/balancer"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/internal"
+	"google.golang.org/grpc/serviceconfig"
 )
 
 const maxInt = int(^uint(0) >> 1)

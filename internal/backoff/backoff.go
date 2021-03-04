@@ -25,8 +25,8 @@ package backoff
 import (
 	"time"
 
-	grpcbackoff "github.com/funt-blockchain/grpc/backoff"
-	"github.com/funt-blockchain/grpc/internal/grpcrand"
+	grpcbackoff "google.golang.org/grpc/backoff"
+	"google.golang.org/grpc/internal/grpcrand"
 )
 
 // Strategy defines the methodology for backing off after a grpc connection

@@ -18,7 +18,7 @@
 
 package grpclog
 
-import "github.com/funt-blockchain/grpc/internal/grpclog"
+import "google.golang.org/grpc/internal/grpclog"
 
 // Logger mimics golang's standard Logger as an interface.
 //

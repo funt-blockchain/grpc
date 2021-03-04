@@ -33,8 +33,8 @@ import (
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/internal/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/internal/status"
 )
 
 // Status references google.golang.org/grpc/internal/status. It represents an

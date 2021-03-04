@@ -25,7 +25,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/funt-blockchain/grpc/internal/grpclog"
+	"google.golang.org/grpc/internal/grpclog"
 )
 
 // LoggerV2 does underlying logging work for grpclog.

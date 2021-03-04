@@ -32,15 +32,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/funt-blockchain/grpc/codes"
-	"github.com/funt-blockchain/grpc/credentials"
-	"github.com/funt-blockchain/grpc/encoding"
-	"github.com/funt-blockchain/grpc/encoding/proto"
-	"github.com/funt-blockchain/grpc/internal/transport"
-	"github.com/funt-blockchain/grpc/metadata"
-	"github.com/funt-blockchain/grpc/peer"
-	"github.com/funt-blockchain/grpc/stats"
-	"github.com/funt-blockchain/grpc/status"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/credentials"
+	"google.golang.org/grpc/encoding"
+	"google.golang.org/grpc/encoding/proto"
+	"google.golang.org/grpc/internal/transport"
+	"google.golang.org/grpc/metadata"
+	"google.golang.org/grpc/peer"
+	"google.golang.org/grpc/stats"
+	"google.golang.org/grpc/status"
 )
 
 // Compressor defines the interface gRPC uses to compress a message.

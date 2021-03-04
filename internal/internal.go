@@ -24,7 +24,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/funt-blockchain/grpc/connectivity"
+	"google.golang.org/grpc/connectivity"
 )
 
 var (
